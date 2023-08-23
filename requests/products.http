@@ -1,0 +1,39 @@
+@api = http://localhost:5000
+
+//--------------------------------------------------------
+POST {{api}}/register
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "F1tprotr@cker!"
+}
+
+###
+POST {{api}}/register
+Content-Type: application/json
+
+{
+    "username": "microphone2",
+    "password": "microphoneRazer2"
+}
+
+//--------------------------------------------------------
+###
+POST {{api}}/authenticate
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "F1tprotr@cker!"
+}
+###
+POST {{api}}/authenticate
+Content-Type: application/json
+
+{
+    "username": "microphone2",
+    "password": "microphoneRazer2"
+}
+###
+GET {{api}}/users 
