@@ -14,8 +14,8 @@ POST {{api}}/register
 Content-Type: application/json
 
 {
-    "username": "microphone2",
-    "password": "microphoneRazer2"
+    "username": "Test2",
+    "password": "Test1234@"
 }
 
 //--------------------------------------------------------
@@ -32,8 +32,8 @@ POST {{api}}/authenticate
 Content-Type: application/json
 
 {
-    "username": "microphone2",
-    "password": "microphoneRazer2"
+    "username": "Test2",
+    "password": "Test1234@"
 }
 ###
 GET {{api}}/users 
